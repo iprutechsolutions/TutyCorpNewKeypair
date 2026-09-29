@@ -1,0 +1,25 @@
+export enum HttpStatusCode {
+  BadRequest = 400,
+  Unauthorized = 401,
+  Forbidden = 403,
+  NotFound = 404,
+  InternalServerError = 500,
+  ServiceUnavailable = 503,
+}
+export enum TErrorCodes {
+  OTP_SENT_SUCCESSFULLY = 1000,
+  OTP_FAILED = 10001,
+  StreetParseError = 2000,
+  CategoryParseError = 3000,
+  CreateTicketFailed = 4000,
+  TICKET_CREATED_SUCCESSFULLY = 4001,
+  TICKET_UPDATED_SUCCESSFULLY = 4002,
+  TICKET_UPDATED_FAILED = 4003,
+  TICKET_HISTORY_FAILED = 4004,
+  TICKET_HISTORY_SUCCESS = 4005,
+  TICKET_REASSIGN_FAILED = 4006,
+  TICKET_REASSIGN_SUCCESS = 4007,
+  PROFILE_UPDATE_FAILED = 5000,
+  PROFILE_UPDATE_SUCCESS = 5001,
+  STAFF_TICKET_COUNT_FAILED = 6000,
+}

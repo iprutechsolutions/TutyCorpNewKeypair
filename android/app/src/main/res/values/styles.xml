@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
+        <item name="android:colorControlActivated">#3C1A7A</item>
+            <item name="android:dialogTheme">@style/YourCustomDialogTheme</item>
+
+    </style>
+    
+<style name="YourCustomDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+    <item name="android:windowBackground">#FFFFFF</item>
+</style>
+</resources>

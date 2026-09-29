@@ -1,0 +1,39 @@
+export interface Complaint {
+  
+  ID: number;
+  ticket_id: string;
+  ASSN_STREET: string;
+  ASSN_NO: string;
+  ASSN_ZONE: string;
+  ASSN_WARD: string;
+  DEPT_NAME: string;
+  DEPT_CAT: string;
+  REPORT: string;
+  PRE_REPORT: string;
+  ASSIGN_PERSON: string;
+  zone_name: string;
+  ward_name: string;
+  dept_name: string;
+  name: string;
+  complaint_cat_name: string;
+  report_dept: string;
+  emp_name: string;
+  ASSN_LOCATION: string;
+  COMP_MOB: string;
+  names: string;
+  COMP_EMAIL: string;
+  DEPT_DESCRIPTION: string;
+  SLA: string;
+  ipaddress: string;
+  DATEOFSUBMIT: string;
+  remark?: string;
+  date?: string;
+  REMARKOFONGOING: string;
+  STATUS: string;
+  lat: string;
+  lng: string;
+  source: string;
+  shelf: string;
+  closedimage: string;
+  closedimageall?: string[];
+}
